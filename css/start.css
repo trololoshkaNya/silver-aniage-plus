@@ -1,0 +1,113 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 95vh;
+}
+
+.no-select {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none; /* Стандартный синтаксис */
+}
+
+.content {
+  text-align: center;
+  width: 600px;
+  height: 220px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  pointer-events: none
+}
+
+.ok-button {
+  position: relative;
+  background-color: orange;
+  top: 15px;
+  width: 80px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+.ok-button:hover {
+  width: 85px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.update {
+  text-align: center;
+  width: 600px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: rgb(128, 128, 128, 0.15);
+}
+
+.update-version {
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  font-size: 17px;
+}
+
+.change-log {
+  position: relative;
+  top: 15px;
+  font-size: 14px;
+}
+
+.support {
+    height: 150px;
+    width: 600px;
+    text-align: center;
+}
+
+.support-tittle {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.support-logo {
+    position: relative;
+    top: 75px;
+    width: 80px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.not-supported {
+    filter: grayscale(100%);
+}
+
+.tittle-plugin {
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+}
+
+.open-saite {
+    height: 40px;
+}
+
+.open-saite-btn {
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.open-saite-btn:hover {
+    color: orange;
+}
